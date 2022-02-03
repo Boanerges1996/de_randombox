@@ -1,5 +1,6 @@
 import { green, pink } from "@mui/material/colors";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { primaryColor } from "./colors";
 
 const theme = createTheme({
   palette: {
@@ -8,7 +9,7 @@ const theme = createTheme({
       primary: "#ffffff",
     },
     primary: {
-      main: green[500],
+      main: primaryColor,
       contrastText: "#ffffff",
     },
     secondary: {

@@ -1,4 +1,4 @@
-const primaryColor = "#2962ff";
+const primaryColor = "#0BDA51";
 const deepGreen = "#2D6A4F";
 const lightGreen = "#D8F3DC";
 const pinkColor = "#e91e63";
