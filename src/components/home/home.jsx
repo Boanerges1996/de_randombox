@@ -1,28 +1,25 @@
-import { ThemeProvider } from "@emotion/react";
-import { Grid, IconButton } from "@mui/material";
-import { Button, Col, Row } from "antd";
+import { IconButton } from "@mui/material";
+import { Col, Row, Typography } from "antd";
 import React from "react";
 import { MdMenu } from "react-icons/md";
+import { LogoIcon } from "../custom/icons/logo";
+
+import { styled } from "@mui/system";
+import TabsUnstyled from "@mui/base/TabsUnstyled";
+import TabsListUnstyled from "@mui/base/TabsListUnstyled";
+import TabPanelUnstyled from "@mui/base/TabPanelUnstyled";
+import { buttonUnstyledClasses } from "@mui/base/ButtonUnstyled";
+import TabUnstyled, { tabUnstyledClasses } from "@mui/base/TabUnstyled";
+import { primaryColor } from "../../colors";
+import { BsFillCartFill } from "react-icons/bs";
+import Homehead from "./head";
+import HomeBody from "./home_body";
 
 export default function Home() {
   return (
     <div>
-      <Row>
-        <Col xs={12} sm={12} md={12}>
-          <Button>dsd</Button>
-        </Col>
-        <Col xs={0} sm={0} md={12}></Col>
-        <Col
-          xs={12}
-          sm={12}
-          md={0}
-          style={{ fontSize: "30px", textAlign: "right" }}
-        >
-          <IconButton color="primary">
-            <MdMenu />
-          </IconButton>
-        </Col>
-      </Row>
+      <Homehead />
+      <HomeBody />
     </div>
   );
 }
