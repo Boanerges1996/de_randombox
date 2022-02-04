@@ -143,7 +143,7 @@ export default function Footer() {
           marginBottom: "30px",
         }}
       >
-        copyright © 2020 DeRandomBox
+        copyright © 2022 DeRandomBox
       </div>
     </div>
   );
