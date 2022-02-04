@@ -14,12 +14,14 @@ import { primaryColor } from "../../colors";
 import { BsFillCartFill } from "react-icons/bs";
 import Homehead from "./head";
 import HomeBody from "./home_body";
+import Footer from "./footer";
 
 export default function Home() {
   return (
     <div>
       <Homehead />
       <HomeBody />
+      <Footer />
     </div>
   );
 }
